@@ -19,7 +19,7 @@
 
 int main() {
     char restart = 'A';
-    const short int n_col = 5;
+    const short int nCol = 5;
     short int nbrPrime = 0;
 
     do {
@@ -43,7 +43,7 @@ int main() {
             if (isPrime) {
                 std::cout << std::setw(10) << i;
                 ++nbrPrime;
-                if (nbrPrime % n_col==0) {
+                if (nbrPrime % nCol==0) {
                     std::cout << std::endl;
                 }
             }
